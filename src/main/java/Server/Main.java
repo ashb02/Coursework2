@@ -1,3 +1,5 @@
+package Server;
+
 import org.sqlite.SQLiteConfig;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -26,6 +28,8 @@ public class Main {
             System.out.println("Database connection error: " + exception.getMessage());
         }
     }
+
+
 
     private static void closeDatabase()
     {
